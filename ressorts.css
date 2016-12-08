@@ -1,0 +1,13 @@
+* {margin:0; padding:0;}
+body {font: 12pt Arial, serif;background-color:#CFCFCF;}
+#rvf {width:100%;}
+#top, #top2, #nav, #snav, #menu, #realisation  {width:0px;display:none;}
+#fabricant-ressorts {width:100%;}
+#contenu {background-color:#fff;width:100%;padding-top:0px;padding-right:10px;padding-left:10px;padding-bottom:0px;}
+p {padding:10px;}
+h1, h2, h3, h4 {font-size:13pt; color:#FA9600; text-align:left; padding-left:10px;}
+.divg{float:left;padding:10px;text-align:center;}
+.divd {float:right;padding:10px;text-align:center; /*border:1px solid #FA9600;*/}
+.legende {font-size:8pt; font-style:italic;background-color:#FA9600;color:#fff;padding-left:2px;padding-right:2px;}
+
+
