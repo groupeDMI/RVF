@@ -16,19 +16,19 @@ $demande=str_replace("''", "'",$demande);
 $bloc.=$demande;
 $bloc.="\n\n";
 $bloc.="Mail : ".$mail."\n\n";
-$bloc.="Société : ".$societe."\n\n";
+$bloc.="SociÃ©tÃ© : ".$societe."\n\n";
 $okenvoi=mail("vgentot@rvf.com","Demande d'information",$bloc,$entete1);
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Contactez l'équipe commerciale de RVF</title>
-<meta http-equiv="imagetoolbar" content="no" /> 
-<meta http-equiv="MSThemeCompatible" content="no" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Contactez l'Ã©quipe commerciale de RVF</title>
+<meta http-equiv="imagetoolbar" content="no" />
+<meta http-equiv="MSThemeCompatible" content="no" />
 <meta name="MSSmartTagsPreventParsing" content="TRUE" />
-<meta name="description" content="Contactez l'équipe commerciale de RVF" />
+<meta name="description" content="Contactez l'Ã©quipe commerciale de RVF" />
 <link href="ressort.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="ressorts.css" rel="stylesheet" type="text/css" media="print" />
 <script language="javascript" type="text/javascript" src="scripts/swfobject.js"></script>
@@ -51,9 +51,9 @@ var str=document.formu.mail.value;
 var filter=/^.+@.+\..{2,3}$/;
 if ((!filter.test(str))||(str.indexOf(";")!=-1)){motif+="Saisie du mail incorrecte.\n";}
 	}
-if (document.formu.societe.value==""){motif+="Indiquez votre société svp !\n";}
+if (document.formu.societe.value==""){motif+="Indiquez votre sociÃ©tÃ© svp !\n";}
 if (document.formu.demande.value==""){motif+="Vous n'avez pas saisi de message !\n";}
-if (motif!=''){alert(""+motif);} 
+if (motif!=''){alert(""+motif);}
 else {document.formu.accord.value='ok';document.formu.submit();}
 motif='';
 			}
@@ -70,9 +70,9 @@ motif='';
 	<div id="top2"> </div>
 	<ul id="nav">
 		<li id="nos-ressorts"><div>Visualisez la gamme<br />de nos ressorts<br /><span class="ressort"><a href="fabrication-ressorts.php" title="Voir toute la gamme des ressorts RVF"></a></span></div></li>
-		<li id="ressorts-industriels"><div>Fabrication de ressorts<br />pour appareillage électrique<br /><span class="ressort"><a href="ressorts-industriels.php" title="Ressorts pour appareils électroménagers et électriques"></a></span></div></li>
-		<li id="ressorts-automobile"><div>Conception de ressorts<br />pour l'industrie automobile<br /><span class="ressort"><a href="ressorts-automobile.php" title="Ressorts destinés à l'industrie automobile"></a></span></div></li>
-		<li id="ressorts-sur-mesure"><div>Création sur mesure<br />de ressorts spécifiques<br /><span class="ressort"><a href="ressorts-sur-mesure.php" title="Ressorts sur mesure"></a></span></div></li>
+		<li id="ressorts-industriels"><div>Fabrication de ressorts<br />pour appareillage Ã©lectrique<br /><span class="ressort"><a href="ressorts-industriels.php" title="Ressorts pour appareils Ã©lectromÃ©nagers et Ã©lectriques"></a></span></div></li>
+		<li id="ressorts-automobile"><div>Conception de ressorts<br />pour l'industrie automobile<br /><span class="ressort"><a href="ressorts-automobile.php" title="Ressorts destinÃ©s Ã  l'industrie automobile"></a></span></div></li>
+		<li id="ressorts-sur-mesure"><div>CrÃ©ation sur mesure<br />de ressorts spÃ©cifiques<br /><span class="ressort"><a href="ressorts-sur-mesure.php" title="Ressorts sur mesure"></a></span></div></li>
 	</ul>
 	<ul id="snav">
 		<li id="snav1"></li>
@@ -80,14 +80,14 @@ motif='';
 		<li id="snav3"></li>
 		<li id="snav4"></li>
 		<li id="snav5"><a href="./" title="Accueil RVF"></a></li>
-		<li id="snav6"><a href="http://www.rvf.com/" title="Ressorts RVF" rel="sidebar" onClick="addToFavorites(this);return(false);" title="Ajoutez RVF à vos favoris"></a></li>
+		<li id="snav6"><a href="http://www.rvf.com/" title="Ressorts RVF" rel="sidebar" onClick="addToFavorites(this);return(false);" title="Ajoutez RVF Ã  vos favoris"></a></li>
 		<li id="snav7"><a href="javascript:window.print();" title="Imprimez cette page"></a></li>
 	</ul>
 	<div id="fabricant-ressorts">
 		<div id="menu">
 			<ul>
 				<li id="rvf-1"><a href="./" title="Site RVF"></a></li>
-				<li id="rvf-2"><a href="rvf.php" title="L'expérience de RVF"></a></li>
+				<li id="rvf-2"><a href="rvf.php" title="L'expÃ©rience de RVF"></a></li>
 				<li id="rvf-3"><a href="ressorts.php" title="Les ressorts de RVF"></a></li>
 				<li id="rvf-5b"><a href="contact.php" title="Contactez RVF"></a></li>
 			</ul>
@@ -100,7 +100,7 @@ motif='';
 <?php
 if (isset($okenvoi))
 {
-echo '<br /><br /><span class="gras">Votre demande a été envoyée. <br />Elle sera traitée dans les plus brefs délais.<br />Nous vous remercions de votre confiance.<br /></span>';
+echo '<br /><br /><span class="gras">Votre demande a Ã©tÃ© envoyÃ©e. <br />Elle sera traitÃ©e dans les plus brefs dÃ©lais.<br />Nous vous remercions de votre confiance.<br /></span>';
 }
 else
 {
@@ -110,7 +110,7 @@ else
 <table cellpadding="0" cellpadding="0" border="0">
 <tr><td colspan="3"> </td></tr>
 <tr><td width="130">&nbsp;</td><td>Votre nom :</td><td><input type="text" name="nom" style="width:200px;" /></td></tr>
-<tr><td width="130">&nbsp;</td><td>Votre société :</td><td><input type="text" name="societe" style="width:200px;" /></td></tr>
+<tr><td width="130">&nbsp;</td><td>Votre sociÃ©tÃ© :</td><td><input type="text" name="societe" style="width:200px;" /></td></tr>
 <tr><td width="130">&nbsp;</td><td>Votre email :</td><td><input type="text" name="mail" style="width:200px;" /></td></tr>
 <tr><td width="130">&nbsp;</td><td>Votre demande :</td><td><textarea name="demande" style="width:200px;height:120px;"></textarea></td></tr>
 <tr><td width="130">&nbsp;</td><td>&nbsp;</td><td><input type="button" onclick="verif()" name="envoi" value="Envoyer" style="width:200px;" /></td></tr>
@@ -123,7 +123,7 @@ else
 
 <br /><br /><br />
 <img src="ressorts/hr.jpg" align="right" /><br />
-<h2 style="padding-top:0px;">Les coordonnées de RVF...</h2>
+<h2 style="padding-top:0px;">Les coordonnÃ©es de RVF...</h2>
 <p style="text-align:center;">
 <strong>RVF SPRINGS SOLUTIONS Ressorts & Visseries des Flandres</strong><br />
 Zac du Beck _12 Rue des Lainiers<br />

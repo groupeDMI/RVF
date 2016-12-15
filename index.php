@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>RVF : fabrication ressorts industriels et ressorts de précision</title>
-<meta http-equiv="imagetoolbar" content="no" /> 
-<meta http-equiv="MSThemeCompatible" content="no" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>RVF : fabrication ressorts industriels et ressorts de prÃ©cision</title>
+<meta http-equiv="imagetoolbar" content="no" />
+<meta http-equiv="MSThemeCompatible" content="no" />
 <meta name="MSSmartTagsPreventParsing" content="TRUE" />
-<meta name="description" content="RVF est un fabricant renommé de ressorts depuis plus de 30 ans. RVF est spécialisé dans la conception et la fabrication de ressorts compression, torsion et traction dans les domaines industriels et automobiles." />
+<meta name="description" content="RVF est un fabricant renommÃ© de ressorts depuis plus de 30 ans. RVF est spÃ©cialisÃ© dans la conception et la fabrication de ressorts compression, torsion et traction dans les domaines industriels et automobiles." />
 <link href="ressort.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="ressorts.css" rel="stylesheet" type="text/css" media="print" />
 <script language="javascript" type="text/javascript" src="scripts/swfobject.js"></script>
@@ -23,9 +23,9 @@
 	<div id="top2"> </div>
 	<ul id="nav">
 		<li id="nos-ressorts"><div>Visualisez la gamme<br />de nos ressorts<br /><span class="ressort"><a href="fabrication-ressorts.php" title="Voir toute la gamme des ressorts RVF"></a></span></div></li>
-		<li id="ressorts-industriels"><div>Fabrication de ressorts<br />pour appareillage électrique<br /><span class="ressort"><a href="ressorts-industriels.php" title="Ressorts pour appareils électroménagers et électriques"></a></span></div></li>
-		<li id="ressorts-automobile"><div>Conception de ressorts<br />pour l'industrie automobile<br /><span class="ressort"><a href="ressorts-automobile.php" title="Ressorts destinés à l'industrie automobile"></a></span></div></li>
-		<li id="ressorts-sur-mesure"><div>Création sur mesure<br />de ressorts spécifiques<br /><span class="ressort"><a href="ressorts-sur-mesure.php" title="Ressorts sur mesure"></a></span></div></li>
+		<li id="ressorts-industriels"><div>Fabrication de ressorts<br />pour appareillage Ã©lectrique<br /><span class="ressort"><a href="ressorts-industriels.php" title="Ressorts pour appareils Ã©lectromÃ©nagers et Ã©lectriques"></a></span></div></li>
+		<li id="ressorts-automobile"><div>Conception de ressorts<br />pour l'industrie automobile<br /><span class="ressort"><a href="ressorts-automobile.php" title="Ressorts destinÃ©s Ã  l'industrie automobile"></a></span></div></li>
+		<li id="ressorts-sur-mesure"><div>CrÃ©ation sur mesure<br />de ressorts spÃ©cifiques<br /><span class="ressort"><a href="ressorts-sur-mesure.php" title="Ressorts sur mesure"></a></span></div></li>
 	</ul>
 	<ul id="snav">
 		<li id="snav1"></li>
@@ -33,14 +33,14 @@
 		<li id="snav3"></li>
 		<li id="snav4"></li>
 		<li id="snav5"><a href="./" title="Accueil RVF"></a></li>
-		<li id="snav6"><a href="http://www.rvf.com/" title="Ressorts RVF" rel="sidebar" onClick="addToFavorites(this);return(false);" title="Ajoutez RVF à vos favoris"></a></li>
+		<li id="snav6"><a href="http://www.rvf.com/" title="Ressorts RVF" rel="sidebar" onClick="addToFavorites(this);return(false);" title="Ajoutez RVF Ã  vos favoris"></a></li>
 		<li id="snav7"><a href="javascript:window.print();" title="Imprimez cette page"></a></li>
 	</ul>
 	<div id="fabricant-ressorts">
 		<div id="menu">
 			<ul>
 				<li id="rvf-1b"><a href="./" title="Site RVF"></a></li>
-				<li id="rvf-2"><a href="rvf.php" title="L'expérience de RVF"></a></li>
+				<li id="rvf-2"><a href="rvf.php" title="L'expÃ©rience de RVF"></a></li>
 				<li id="rvf-3"><a href="ressorts.php" title="Les ressorts de RVF"></a></li>
 				<li id="rvf-5"><a href="contact.php" title="Contactez RVF"></a></li>
 			</ul>
@@ -50,34 +50,34 @@
 
 <h1>RVF: fabricant de ressorts depuis 30 ans...</h1>
 <p>
-L'activité de RVF est spécialement dédiée à la conception et la <a href="fabrication-ressorts.php" title="Production de ressorts">production</a> de ressorts compression, torsion et traction.
+L'activitÃ© de RVF est spÃ©cialement dÃ©diÃ©e Ã  la conception et la <a href="fabrication-ressorts.php" title="Production de ressorts">production</a> de ressorts compression, torsion et traction.
 </p>
 <p>
-Depuis plus de trente ans, RVF est spécialisé dans la fabrication des ressorts enroulés à froid de 0,1 mm à 2 mm de tous types et fabriqués à base de fils ronds tréfilés en acier au carbone, acier inoxydable, acier spéciaux, cuivre ou laiton.
+Depuis plus de trente ans, RVF est spÃ©cialisÃ© dans la fabrication des ressorts enroulÃ©s Ã  froid de 0,1 mm Ã  2 mm de tous types et fabriquÃ©s Ã  base de fils ronds trÃ©filÃ©s en acier au carbone, acier inoxydable, acier spÃ©ciaux, cuivre ou laiton.
 </p>
 <p>
-RVF vous aide à concevoir le <em><a href="ressorts-sur-mesure.php">produit idéal</a></em> en performances tout en restant économiquement compatible avec vos besoins.
+RVF vous aide Ã  concevoir le <em><a href="ressorts-sur-mesure.php">produit idÃ©al</a></em> en performances tout en restant Ã©conomiquement compatible avec vos besoins.
 </p>
 
-<h2>Une expérience industrielle</h2>
+<h2>Une expÃ©rience industrielle</h2>
 <p>
-Avec un <strong>parc de 55 machines</strong> réparties en travail par équipe toute l'année, la société RVF peut répondre à la quasi-totalité des réalisations de <em>ressorts fil de 0,1 mm à plus de 2 mm</em>, ainsi qu'à des conditionnements spécifiques ou des pré-assemblages.
+Avec un <strong>parc de 55 machines</strong> rÃ©parties en travail par Ã©quipe toute l'annÃ©e, la sociÃ©tÃ© RVF peut rÃ©pondre Ã© la quasi-totalitÃ© des rÃ©alisations de <em>ressorts fil de 0,1 mm Ã  plus de 2 mm</em>, ainsi qu'Ã  des conditionnements spÃ©cifiques ou des prÃ©-assemblages.
 </p>
 <p>
-Afin de libérer les contraintes imposées lors du formage sur fil, toutes nos machines sont équipées d'<em>un four mobile</em>.
+Afin de libÃ©rer les contraintes imposÃ©es lors du formage sur fil, toutes nos machines sont Ã©quipÃ©es d'<em>un four mobile</em>.
 </p>
 <p>
-Nous disposons d'une <em>unité de meulage</em> et de <em>compression unitaire</em> pour garantir lorsqu'il est nécessaire une perpendicularité optimale des éléments de nos produits.
+Nous disposons d'une <em>unitÃ© de meulage</em> et de <em>compression unitaire</em> pour garantir lorsqu'il est nÃ©cessaire une perpendicularitÃ© optimale des Ã©lÃ©ments de nos produits.
 </p>
 <p>
-RVF a élargi son offre en proposant des ressorts "Propres" grâce à son nouveau département nettoyage assorti d'un conditionnement adapté conformément aux désirs de vos chefs de projets. (ressorts mis en plateaux, mis en tiges, en tubes ou simplement en sachets). 
+RVF a Ã©largi son offre en proposant des ressorts "Propres" grÃ ce Ã  son nouveau dÃ©partement nettoyage assorti d'un conditionnement adaptÃ© conformÃ©ment aux dÃ©sirs de vos chefs de projets. (ressorts mis en plateaux, mis en tiges, en tubes ou simplement en sachets).
 </p>
 
 		</div>
 	</div>
 <?php include("bas.inc.php");?>
 
-		<div id="plan"><a href="rvf.php">RVF</a> | <a href="fabrication-ressorts.php">Les ressorts RVF</a> | <a href="ressorts.php">Ressorts de qualité</a> | <a href="ressorts-sur-mesure.php">Ressorts sur mesure</a></div>
+		<div id="plan"><a href="rvf.php">RVF</a> | <a href="fabrication-ressorts.php">Les ressorts RVF</a> | <a href="ressorts.php">Ressorts de qualitÃ©</a> | <a href="ressorts-sur-mesure.php">Ressorts sur mesure</a></div>
 	</div>
 </body>
 </html>
