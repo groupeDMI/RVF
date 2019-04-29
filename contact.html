@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 if ((isset($_POST['accord']))&&($_POST['accord']=="ok"))
 {
 $nom=htmlspecialchars($_POST['nom']);
@@ -19,7 +19,7 @@ $bloc.="Mail : ".$mail."\n\n";
 $bloc.="Société : ".$societe."\n\n";
 $okenvoi=mail("vgentot@rvf.com","Demande d'information",$bloc,$entete1);
 }
-?>
+?> -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -33,7 +33,7 @@ $okenvoi=mail("vgentot@rvf.com","Demande d'information",$bloc,$entete1);
 <link href="ressorts.css" rel="stylesheet" type="text/css" media="print" />
 <script language="javascript" type="text/javascript" src="scripts/swfobject.js"></script>
 <script language="javascript" type="text/javascript" src="scripts/ie.js"></script>
-<?php include("favicon.inc.php");?>
+
 <script language="javascript" type="text/javascript">
 var motif="";
 function verif()	{
@@ -69,10 +69,10 @@ motif='';
 	</div>
 	<div id="top2"> </div>
 	<ul id="nav">
-		<li id="nos-ressorts"><div>Visualisez la gamme<br />de nos ressorts<br /><span class="ressort"><a href="fabrication-ressorts.php" title="Voir toute la gamme des ressorts RVF"></a></span></div></li>
-		<li id="ressorts-industriels"><div>Fabrication de ressorts<br />pour appareillage électrique<br /><span class="ressort"><a href="ressorts-industriels.php" title="Ressorts pour appareils électroménagers et électriques"></a></span></div></li>
-		<li id="ressorts-automobile"><div>Conception de ressorts<br />pour l'industrie automobile<br /><span class="ressort"><a href="ressorts-automobile.php" title="Ressorts destinés à l'industrie automobile"></a></span></div></li>
-		<li id="ressorts-sur-mesure"><div>Création sur mesure<br />de ressorts spécifiques<br /><span class="ressort"><a href="ressorts-sur-mesure.php" title="Ressorts sur mesure"></a></span></div></li>
+		<li id="nos-ressorts"><div>Visualisez la gamme<br />de nos ressorts<br /><span class="ressort"><a href="fabrication-ressorts.html" title="Voir toute la gamme des ressorts RVF"></a></span></div></li>
+		<li id="ressorts-industriels"><div>Fabrication de ressorts<br />pour appareillage électrique<br /><span class="ressort"><a href="ressorts-industriels.html" title="Ressorts pour appareils électroménagers et électriques"></a></span></div></li>
+		<li id="ressorts-automobile"><div>Conception de ressorts<br />pour l'industrie automobile<br /><span class="ressort"><a href="ressorts-automobile.html" title="Ressorts destinés à l'industrie automobile"></a></span></div></li>
+		<li id="ressorts-sur-mesure"><div>Création sur mesure<br />de ressorts spécifiques<br /><span class="ressort"><a href="ressorts-sur-mesure.html" title="Ressorts sur mesure"></a></span></div></li>
 	</ul>
 	<ul id="snav">
 		<li id="snav1"></li>
@@ -87,9 +87,9 @@ motif='';
 		<div id="menu">
 			<ul>
 				<li id="rvf-1"><a href="./" title="Site RVF"></a></li>
-				<li id="rvf-2"><a href="rvf.php" title="L'expérience de RVF"></a></li>
-				<li id="rvf-3"><a href="ressorts.php" title="Les ressorts de RVF"></a></li>
-				<li id="rvf-5b"><a href="contact.php" title="Contactez RVF"></a></li>
+				<li id="rvf-2"><a href="rvf.html" title="L'expérience de RVF"></a></li>
+				<li id="rvf-3"><a href="ressorts.html" title="Les ressorts de RVF"></a></li>
+				<li id="rvf-5b"><a href="contact.html" title="Contactez RVF"></a></li>
 			</ul>
 			<br /><br /><img src="ressorts/image-ressort.jpg" alt="Images ressort" id="image-ressort" />
 		</div>
@@ -106,7 +106,7 @@ else
 {
 ?>
 <br /><br />
-<form name="formu" action="contact.php" method="post"><input type="hidden" name="accord">
+<form name="formu" action="contact.html" method="post"><input type="hidden" name="accord">
 <table cellpadding="0" cellpadding="0" border="0">
 <tr><td colspan="3"> </td></tr>
 <tr><td width="130">&nbsp;</td><td>Votre nom :</td><td><input type="text" name="nom" style="width:200px;" /></td></tr>
@@ -142,7 +142,7 @@ E-mail : <a href="mailto:vgentot@rvf.com">vgentot@rvf.com</a>
 
 		</div>
 	</div>
-<?php include("bas.inc.php");?>
+<?php include("bas.inc.html");?>
 </div>
 </body>
 </html>
