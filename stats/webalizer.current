@@ -159,7 +159,7 @@
 1 60 0 1357594 0 0 0 0
 /ressorts/hr.jpg
 1 40 0 24781 0 0 0 0
-/flash/rvf.swf
+/flash/rvf.gif
 0 161 0 7216516 0 0 0 0
 /images-global/zoom/zoom-shadow6.png
 1 27 0 19359 0 0 0 0
@@ -269,7 +269,7 @@
 1 17 0 101947 0 0 0 0
 /./
 0 4 0 9298 0 0 0 0
-/flash/monde.swf
+/flash/monde.gif
 0 419 0 6738447 0 0 0 0
 /ressorts/realisation.jpg
 1 349 0 1847325 0 0 0 0
@@ -4498,7 +4498,7 @@ http://www.ressorts-rvf.com/ressorts.php
 0 305
 http://www.rvf.com/ressorts-sur-mesure.php
 0 1
-http://www.ressorts-rvf.com/flash/rvf.swf
+http://www.ressorts-rvf.com/flash/rvf.gif
 0 4
 http://lemoteur.orange.fr/
 0 2
@@ -4600,7 +4600,7 @@ http://www.ressorts-rvf.com/contact.php
 0 124
 http://www.google.be/url
 0 3
-http://www.ressorts-rvf.com/flash/monde.swf
+http://www.ressorts-rvf.com/flash/monde.gif
 0 15
 http://rvf.com/ressorts.css
 0 1

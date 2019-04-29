@@ -16,7 +16,7 @@
 <body>
 <div id="rvf">
 	<div id="top">
-		<div><script language="javascript">run_flash("../flash/monde.swf","314","133");</script></div>
+		<div><script language="javascript">run_flash("../flash/monde.gif","314","133");</script></div>
 		<div><img src="../industriels/ressorts.jpg" width="538" height="133" border="0" alt="Springs" /></div>
 	</div>
 	<div id="top2"> </div>
